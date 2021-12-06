@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bts grid
+    </title>
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<style>
+    body{
+        background-color: #db4bc3;
+    }
+    .header{ background-color: violet;
+    text-align: center;}
+    .p50{padding: 30px;
+    border:1px solid white;
+    }
+    .border{
+        border: 1px solid white;
+        height: 500px;
+        background-color: rosybrown;
+    }
+    .bg{background-color: hotpink;
+    border: 1px solid red;}
+</style>
+
+</head>
+<body>
+     <div class="container p50 header ">
+         <h1>Container page in Bootstrap</h1>
+         <p>From cyberdude</p>
+     </div>
+     <div class="container  border">
+         BTS class in  grid
+         <div class="row">
+            <div class="col bg">
+                    row 1 col 1
+            </div>
+            <div class="col bg">
+                row 1 col 2
+            </div>
+            <div class="row">
+                <div class="col-2 bg">row 2 col 1</div>
+                <div class="col bg">row 2 col 2</div>
+                <div class="col bg">row 2 col 3</div>
+                <div class="col-2 bg">row 2 col 4</div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4 bg">row 3 col 1</div>
+                <div class="col-sm-4 bg">row 3 col2 </div>
+                <div class="col-sm-4 bg">row 3 col 3</div>
+            </div>
+
+         </div>
+     </div>
+     
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

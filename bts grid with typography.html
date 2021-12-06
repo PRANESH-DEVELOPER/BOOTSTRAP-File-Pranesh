@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid with Typography</title>
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<style>
+    body{background-color: wheat;}
+    .header{
+        background-color: darkblue;
+        color: white;
+        
+    }
+    .bg{
+        background-color: lightblue;
+        border: 1px solid black;
+    }
+    .bgs{border-right: 1px solid grey; 
+    height: 200px;}
+    .h500{
+        height: 500px;
+    }
+</style>
+</head>
+<body>
+    <div class="container header">
+        <h1>
+            Grid with Typography.
+        </h1>
+        <p>Learn from begining.</p>
+    </div>
+    <div class="container h500 bg ">
+        <p class="display-3">Welcome Pranesh 
+            <small class="text-muted">(Full Stack Developer)</small> </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus qui incidunt vero, nulla dolores, autem debitis commodi inventore, explicabo distinctio iure non. Assumenda nam nesciunt maiores iste eos ratione sapiente.</p>
+    
+    <div class="row bg">
+        <ul style="list-style-type:none ;padding: 4px;" class="list-inline">
+            <li class="list-inline-item">Home</li>
+            <li class="list-inline-item">Contact</li>
+            <li class="list-inline-item">About</li>
+            <li class="list-inline-item" style="float: right;">News</li>
+        </ul>
+    
+    </div>
+    <div class="row bg ">
+        <div class="col-3 bgs">side bar - left</div>
+        <div class="col-6 bgs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste inventore voluptatum praesentium eligendi sed beatae quia natus repellat voluptate voluptatibus, magni, possimus quisquam facere quibusdam. Iure minima ad tempore voluptatibus!</div>
+        <div class="col-3 bgs"> side abr - right</div>
+    </div>
+    <div class="row bg" style="justify-content:center;">
+        <div class="col-3 bgs" style="border-left: 1px solid grey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eaque labore nulla tempore expedita quaerat minus illum? Porro voluptate ea officia vero cum recusandae error eveniet, odit dolore minus impedit.</div>
+        <div class="col-3 bgs">Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos hic eligendi molestias quisquam repudiandae, illum architecto dolores soluta minus iure veritatis, consequuntur ratione totam fuga obcaecati? In, tempore magni.</div>
+        <div class="col-3 bgs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad obcaecati repellat quae doloribus consequuntur iure exercitationem, necessitatibus tempore placeat temporibus maiores sequi, sapiente illo? Voluptates amet quo veritatis culpa saepe.</div>
+
+    </div>
+    <div class="row bg text-center">
+        <footer class="blockquote">
+            WORK IN THE PRESENT FOR YOUR BRIGHT FUTURE.</footer>
+            <p class="blockquote-footer">pranesh</p>
+    </div>
+    </div>    
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+</body>
+</html>
